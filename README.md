@@ -18,7 +18,7 @@ Api to Api with app roles.
 ## Public Api
 1. Create app registraion for public resource
 2. In Api Permissions add role from Protect Api setup
-    - Add an Application Permission => Select Protect API registraion => select Application Role => select Role
+    - Add a Permission => Select Protect API registraion => select Application Permission => select Role
 3. Request consent from admin via URL or through the ad portal if on the same tenant.
     - https://login.microsoftonline.com/{tenantId}/adminconsent?client_id={clientId}&state={somenumber}&redirect_uri={redirect, set to local host for debugging}
 4. Edit manifest.json and update accessTokenAcceptedVersion to 2.
