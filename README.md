@@ -11,7 +11,8 @@ Api to Api with app roles.
     - Url for consent will look like this where the clientID is the public app registrations id:
 		- https://login.microsoftonline.com/{tenantId}/adminconsent?client_id={clientId}&state={somenumber}&redirect_uri={redirect, set to local host for debugging}
 3. Create Application Role.
-4. Edit manifest.json and update accessTokenAcceptedVersion to 2
+	- both user and application role.
+5. Edit manifest.json and update accessTokenAcceptedVersion to 2
 
 
 ## Public Api
