@@ -65,7 +65,7 @@ There should a user for the public app service principal with a role
 
 	1. Assumes consent has been granted by the admin of the protected resource.
 	2. Request an access token to the oauth2 token url
-		a. https://login.microsoftonline.com/fb2492a7-4cfe-4506-95f9-2284aa380e41/oauth2/v2.0/token
+		a. https://login.microsoftonline.com/{tenantid}/oauth2/v2.0/token
 		b. With payoad
 			i. client_id => the clientId of the public api (where the request is coming from)
 			ii. Grant_type => client_crednetials
